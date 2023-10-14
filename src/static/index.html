@@ -20,17 +20,15 @@
     <button id="dark-mode-toggle">Toggle Dark Mode</button>
 
     <script>
-        // Function to toggle dark mode for individual .item elements
-        function toggleDarkMode(item) {
+        function toggleDarkMode(item) 
+        {
             item.classList.toggle("dark-mode");
         }
-        // Function to toggle dark mode
-        function toggleDarkMode() {
+        function toggleDarkMode() 
+        {
             const body = document.body;
             body.classList.toggle("dark-mode");
         }
-
-        // Event listener for the button click
         const darkModeToggle = document.getElementById("dark-mode-toggle");
         darkModeToggle.addEventListener("click", toggleDarkMode);
     </script>
