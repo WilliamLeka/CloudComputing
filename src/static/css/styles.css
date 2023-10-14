@@ -22,6 +22,12 @@ body.dark-mode {
     transition: all .2s ease-in-out;
 }
 
+body.dark-mode .item {
+            background-color: #222222;
+            color: #ffffff;
+            box-shadow: 0 0 1em #555;
+        }
+
 
 
 .item:hover {
