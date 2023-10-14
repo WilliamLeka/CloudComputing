@@ -1,11 +1,9 @@
-/* Your default (light) mode styles */
 body {
     background-color: #ffffff;
     margin-top: 50px;
     font-family: 'Lato';
 }
 
-/* Dark mode styles */
 body.dark-mode {
     background-color: #111111;
     margin-top: 50px;
@@ -22,11 +20,12 @@ body.dark-mode {
     transition: all .2s ease-in-out;
 }
 
-body.dark-mode .item {
-            background-color: #222222;
-            color: #ffffff;
-            box-shadow: 0 0 1em #555;
-        }
+body.dark-mode .item 
+{
+    background-color: #222222;
+    color: #ffffff;
+    box-shadow: 0 0 1em #555;
+}
 
 
 
