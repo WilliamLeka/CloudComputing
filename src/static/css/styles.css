@@ -1,12 +1,12 @@
 body {
-    background-color: #ffffff;
-    margin-top: 50px;
+    background-color: rgb(209, 240, 213);
+    margin-top: 600px;
     font-family: 'Lato';
-    margin-left: 400px;
+
 }
 
 body.dark-mode {
-    background-color: #111111;
+    background-color: rgb(46, 42, 42);
     margin-top: 50px;
     font-family: 'Lato';
 }
