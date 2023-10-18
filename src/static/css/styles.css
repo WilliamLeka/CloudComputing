@@ -2,6 +2,7 @@ body {
     background-color: #ffffff;
     margin-top: 50px;
     font-family: 'Lato';
+    margin-left: 400px;
 }
 
 body.dark-mode {
