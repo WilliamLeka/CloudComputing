@@ -2,7 +2,7 @@ body {
     background-color: #ffffff;
     margin-top: 50px;
     font-family: 'Lato';
-}
+     position: relative;
 
 body.dark-mode {
     background-color: #111111;
@@ -28,10 +28,13 @@ body.dark-mode .item
 
 #dark-mode-toggle {
     background-color: #333;
-    color: #fff; 
+    color: #fff;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
+    position: absolute;
+    top: 5px; 
+    right: 20px; 
 }
 
 
