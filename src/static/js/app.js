@@ -76,6 +76,8 @@ function AddItemForm({ onNewItem }) {
     const submitNewItem = e => {
         e.preventDefault();
         setSubmitting(true);
+        const currentDate = new Date().toLocaleString();
+        const newItemWithDate = `${newItem} created by: ${currentDate}`;
         fetch('/items', {
             method: 'POST',
             body: JSON.stringify({ name: newItem }),
