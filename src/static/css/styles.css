@@ -7,7 +7,7 @@ body {
 
 body.dark-mode {
     background-color: rgb(46, 42, 42);
-    margin-top: 500px;
+        margin-top: 100px;
     font-family: 'Lato';
 }
 
