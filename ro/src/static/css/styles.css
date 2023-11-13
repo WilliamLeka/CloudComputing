@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(209, 240, 213);
+    margin-top: 100px;
+    font-family: 'Lato';
+
+}
+
+body.dark-mode {
+    background-color: rgb(46, 42, 42);
+        margin-top: 100px;
+    font-family: 'Lato';
+}
+
+.item {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: transparent;
+    border-radius: 5px;
+    box-shadow: 0 0 1em #ccc;
+    transition: all .2s ease-in-out;
+}
+
+body.dark-mode .item 
+{
+    background-color: #222222;
+    color: #ffffff;
+    box-shadow: 0 0 1em #555;
+
+    
+}
+
+/* Style the dark mode toggle button */
+#dark-mode-toggle {
+    background-color: #333; /* Background color for the button */
+    color: #fff; /* Text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    
+}
+
+/* Style the dark mode toggle button on hover */
+#dark-mode-toggle:hover {
+    background-color: #555; /* Hover background color */
+}
+
+
+
+.item:hover {
+    box-shadow: 0 0 1em #aaa;
+}
+
+.item.completed {
+    text-decoration: line-through;
+}
+
+.toggles {
+    color: black;
+}
+
+.name {
+    padding-top: 3px;
+}
+
+.remove {
+    padding-left: 0;
+}
+
+button:focus {
+    border: 1px solid #333;
+}
