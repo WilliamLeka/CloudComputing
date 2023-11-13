@@ -22,7 +22,7 @@ responseSubNet = requests.get('https://management.azure.com/subscriptions/6c01e8
 print("\n---Sub Net---\n",responseResourceGroups.json(),"\n---Sub Net---\n")
 
 
-#IP Address
+#Public IP Address
 responsePublicIPAddress = requests.get('https://management.azure.com/subscriptions/6c01e812-bb10-4007-afea-43097d9ed75a/resourceGroups/lab4/providers/Microsoft.Network/networkInterfaces/nic4?api-version=2023-05-01', headers=payload)
 print("\n---Public IP Address---\n",responseResourceGroups.json(),"\n---Public IP Address---\n")
 
